@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.19)
+project(SortAlgorithmsComparison)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(SortAlgorithmsComparison main.cpp sort_algorithms/HoaresQuicksort.cpp sort_algorithms/HoaresQuicksort.h sort_algorithms/ThreeWayQuicksort.cpp sort_algorithms/ThreeWayQuicksort.h sort_algorithms/MergeSort.cpp sort_algorithms/MergeSort.h sort_algorithms/InsertionSort.cpp sort_algorithms/InsertionSort.h sort_algorithms/BinaryInsertionSort.cpp sort_algorithms/BinaryInsertionSort.h sort_algorithms/Sort.cpp sort_algorithms/Sort.h sort_algorithms/HeapSort.cpp sort_algorithms/HeapSort.h sort_algorithms/CountingSort.cpp sort_algorithms/CountingSort.h)
